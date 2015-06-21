@@ -6,15 +6,12 @@ Template: wp-ors-new-daddy-theme
 */
 
 @import url("../wp-ors-new-daddy-theme/style.css");
-
 body {
 	margin-top: 10px;
 }
 
 #site-header hgroup h1 {
-	text-align: center;
-	padding-top: 50px;
-	font-size: 3em;
+	display: none;
 }
 
 #site-header .row {
@@ -23,6 +20,14 @@ body {
 
 #site-logo {
 	margin-left: -15px;
+}
+
+#logo-links {
+	margin: 25px 0;
+}
+
+#logo-links a {
+	margin: 0 5px;
 }
 
 #searchform {
@@ -40,7 +45,7 @@ body {
 #menu-main li a {
 	display: block;
 	width: 10em;
-	padding: 2em 0.35em;
+	padding: 60px 0;
 	color: #000000;
 	background: #eee;
 	border: solid 1px #eee;
@@ -50,12 +55,13 @@ body {
 }
 
 #menu-main li a:hover {
-	border: solid 1px #b32018;
+	background: rgba(78, 133, 198, 0.40);
 }
 
 #menu-main .dropdown-menu {
 	background: #eee;
 	border: solid 1px #eee;
+	border-top: solid 3px #B41D16;
 	padding: 0;
 	box-shadow: none;
 }
@@ -65,8 +71,9 @@ body {
 	margin: 0;
 }
 
-#menu-main .dropdown-menu a {
-  width: 9.9em;
+#menu-main .dropdown-menu li a {
+	padding: 1em 0.35em;
+	width: 9.9em;
 	overflow: hidden;
 }
 
@@ -99,4 +106,18 @@ a {
 
 a:hover {
 	color: #b32018;
+}
+
+#site-footer {
+	color: #aaa;
+  background: rgb(32, 31, 29);
+	margin-top: 50px;
+  padding: 20px 10px;
+}
+
+#site-footer p {
+	float: left;
+  margin: 0 0 10px;
+  width: 33%;
+  padding: 10px;
 }
