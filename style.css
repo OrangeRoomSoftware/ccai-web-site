@@ -1,0 +1,102 @@
+/*
+Theme Name: Capital City Art Initiative
+Description:The theme for Capital City Art Initiative
+Author: Phill Kenoyer & Nicole Charshafian
+Template: wp-ors-new-daddy-theme
+*/
+
+@import url("../wp-ors-new-daddy-theme/style.css");
+
+body {
+	margin-top: 10px;
+}
+
+#site-header hgroup h1 {
+	text-align: center;
+	padding-top: 50px;
+	font-size: 3em;
+}
+
+#site-header .row {
+	border-bottom: 6px solid #b23018;
+}
+
+#site-logo {
+	margin-left: -15px;
+}
+
+#searchform {
+	width: 100%;
+}
+
+#site-header .navbar {
+	margin-top: 15px;
+}
+
+#menu-main li {
+	margin-right: 0.5em;
+}
+
+#menu-main li a {
+	display: block;
+	width: 10em;
+	padding: 2em 0.35em;
+	color: #000000;
+	background: #eee;
+	border: solid 1px #eee;
+	text-decoration: none;
+	font-size: 1.25em;
+	text-align: center;
+}
+
+#menu-main li a:hover {
+	border: solid 1px #b32018;
+}
+
+#menu-main .dropdown-menu {
+	background: #eee;
+	border: solid 1px #eee;
+	padding: 0;
+	box-shadow: none;
+}
+
+#menu-main .dropdown-menu li {
+	padding: 0;
+	margin: 0;
+}
+
+#menu-main .dropdown-menu a {
+  width: 9.9em;
+	overflow: hidden;
+}
+
+#site-content {
+	margin-top: 20px;
+}
+
+.featured-article {
+	margin-top: 1.25em;
+	text-align: center;
+	display: block;
+	width: 30%;
+	padding: 0 auto;
+}
+
+#feature-1 {
+	max-width: 30%;
+	border-left: 1px solid #b32018;
+	border-right: 1px solid #b32018;
+}
+
+#feature-3 {
+	border-left: 1px solid #b32018;
+	border-right: 1px solid #b32018;
+}
+
+a {
+	color: black;
+}
+
+a:hover {
+	color: #b32018;
+}
