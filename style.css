@@ -93,6 +93,16 @@ Template: wp-ors-new-daddy-theme
 	margin-top: 20px;
 }
 
+.sidebar .widgettitle {
+  font-size: 12pt;
+  font-weight: bold;
+}
+
+.sidebar ul, .sidebar li {
+  margin: 0;
+  padding: 0 5px;
+}
+
 .featured-article {
 	margin-top: 1.25em;
 	text-align: center;
