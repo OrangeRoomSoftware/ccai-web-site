@@ -82,6 +82,7 @@
         <?php
         $has_sidebar = false;
         $col_width = 'col-lg-12 col-md-12 col-sm-12';
+
         if (has_nav_menu('sidebar') or is_active_sidebar('sidebar')) {
             $has_sidebar = true;
             $col_width = 'col-lg-9 col-md-9 col-sm-9';

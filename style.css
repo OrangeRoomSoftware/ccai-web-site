@@ -6,16 +6,21 @@ Template: wp-ors-new-daddy-theme
 */
 
 @import url("../wp-ors-new-daddy-theme/style.css");
-body {
-	margin-top: 10px;
+@import url(http://fonts.googleapis.com/css?family=EB+Garamond);
+
+#site-header .row {
+	background: url("images/header-bg.png");
+	padding-top: 10px;
 }
 
 #site-header hgroup h1 {
-	display: none;
+	padding-top: 22px;
+	font-family: 'Garamond Bold', 'EB Garamond', serif;
+	font-size: 48pt;
 }
 
 #site-header .row {
-	border-bottom: 6px solid #b23018;
+	border-bottom: 6px solid #B41D16;
 }
 
 #site-logo {
@@ -35,7 +40,7 @@ body {
 }
 
 #site-header .navbar {
-	margin-top: 15px;
+	margin: 0 -23px 0 -15px;
 }
 
 #menu-main li {
@@ -44,7 +49,7 @@ body {
 
 #menu-main li a {
 	display: block;
-	width: 10em;
+	width: 189px;
 	padding: 60px 0;
 	color: #000000;
 	background: #eee;
@@ -59,6 +64,7 @@ body {
 }
 
 #menu-main .dropdown-menu {
+	top: 95px;
 	background: #eee;
 	border: solid 1px #eee;
 	border-top: solid 3px #B41D16;
@@ -73,7 +79,7 @@ body {
 
 #menu-main .dropdown-menu li a {
 	padding: 1em 0.35em;
-	width: 9.9em;
+	width: 187px;
 	overflow: hidden;
 }
 
@@ -108,6 +114,41 @@ a:hover {
 	color: #b32018;
 }
 
+.wpcufpn_outside {
+	margin-left: -20px;
+}
+
+.wpcufpn_outside .wpcu_block_title {
+	display: none;
+}
+
+.wpcufpn_outside .img_cropper {
+	height: 300px;
+	overflow: hidden;
+}
+
+.wpcufpn_outside .thumbnail {
+	box-shadow: none;
+	border: none;
+}
+
+.wpcufpn_outside .thumbnail img {
+	margin: 0 auto;
+	width: 740px;
+}
+
+.wpcu-front-box.bottom {
+	padding: 5px;
+}
+
+.events-box {
+  background: url("images/catlist-bg.png");
+  padding: 20px 20px;
+  border: solid 1px #eeeeee;
+  margin-right: -15px;
+  height: 450px;
+}
+
 #site-footer {
 	color: #aaa;
   background: rgb(32, 31, 29);
@@ -121,3 +162,10 @@ a:hover {
   width: 33%;
   padding: 10px;
 }
+
+@media (max-width: 1024px) {
+  #menu-main li a {
+    width: 155px;
+  }
+}
+
