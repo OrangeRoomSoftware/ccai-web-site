@@ -52,9 +52,10 @@
 					     <input type="submit" id="searchsubmit" value="Go">
 			    </form>
           <div id="logo-links">
-            <a href="http://smile.amazon.com/ch/20-1343468" target="_blank"><img width="50" src="/wp-content/themes/ccai/images/smile.jpg"/></a>
-            <a href="/home/about/join/"><img width="50" src="/wp-content/themes/ccai/images/join.jpg"/></a>
-            <a href="https://www.facebook.com/pages/Capital-City-Arts-Initiative/96391381287" target="_blank"><img width="50" src="/wp-content/themes/ccai/images/facebook.jpg"/></a>
+            <div><a title="Support" href="http://smile.amazon.com/ch/20-1343468" target="_blank"><img width="50" src="/wp-content/themes/ccai/images/smile.jpg"/></a><br>Support</div>
+            <div><a title="Donate" href="https://client.pointandpay.net/web/CapitalCityArtsInitiativeNV" target="_blank"><img width="50" src="/wp-content/themes/ccai/images/donate.jpg"/></a><br>Donate</div>
+            <div><a title="Join" href="/home/about/join/"><img width="50" src="/wp-content/themes/ccai/images/join.jpg"/></a><br>Join</div>
+            <div><a title="Follow" href="https://www.facebook.com/pages/Capital-City-Arts-Initiative/96391381287" target="_blank"><img width="50" src="/wp-content/themes/ccai/images/facebook.jpg"/></a><br>Follow</div>
           </div>
         </div>
       </div>

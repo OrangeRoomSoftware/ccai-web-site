@@ -29,6 +29,12 @@ Template: wp-ors-new-daddy-theme
 
 #logo-links {
 	margin: 25px 0;
+  font-size: 9pt;
+  font-weight: bold;
+}
+
+#logo-links div {
+  display: inline-block;
 }
 
 #logo-links a {
@@ -168,4 +174,3 @@ a:hover {
     width: 155px;
   }
 }
-
