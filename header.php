@@ -38,17 +38,16 @@
         <div class="col-lg-2 col-md-2 col-sm-2">
           <img class="pull-left" id="site-logo" src="/wp-content/themes/ccai/images/header.jpg"/>
         </div>
-        <div class="col-lg-7 col-md-7 col-sm-7">
+        <div class="col-lg-7 col-md-7 col-sm-6">
           <?php dynamic_sidebar('above-header'); ?>
           <hgroup>
             <h1><a href="<?php echo get_option('home')?>/"><?php bloginfo('name')?></a></h1>
           </hgroup>
           <?php dynamic_sidebar('below-header'); ?>
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-3" style="text-align:center">
+        <div class="col-lg-3 col-md-3 col-sm-4" style="text-align:center">
           <form role="search" method="get" id="searchform" class="searchform" action="/">
-					     <label class="screen-reader-text" for="s">Search</label>
-					     <input type="text" value="" name="s" id="s">
+					     <input type="text" value="" name="s" id="s" placeholder="Search">
 					     <input type="submit" id="searchsubmit" value="Go">
 			    </form>
           <div id="logo-links">
